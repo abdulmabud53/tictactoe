@@ -1,0 +1,94 @@
+h1 {
+    text-align: center;
+    font-size: 50px;
+    color: white;
+}
+
+body {
+    background-color: black;
+}
+
+td {
+    width: 100px;
+    height: 100px;
+}
+
+.left {
+    float: left;
+    margin: 40px;
+}
+
+table {
+    margin: 5px;
+    padding: 60px;
+}
+
+.vertical {
+    border-left: 2px solid goldenrod;
+    border-right: 2px solid goldenrod;
+}
+
+.horizontal {
+    border-top: 2px solid goldenrod;
+    border-bottom: 2px solid goldenrod;
+}
+
+.right {
+    float: right;
+}
+
+.details {
+    text-align: center;
+    font-size: 50px;
+}
+
+.p1 {
+    color: gray;
+    font-size: 30px;
+    padding: 80px;
+}
+
+.name1 {
+    background-color: rgb(226, 30, 30);
+    height: 30px;
+}
+
+.yellow {
+    color: rgb(255, 0, 0);
+}
+
+.green {
+    color: rgb(9, 176, 241);
+}
+
+.name2 {
+    background-color: rgb(10, 147, 238);
+    height: 30px;
+}
+
+.image {
+    height: 5%;
+    width: 10%;
+    border-radius: 5px;
+}
+
+.score {
+    font-size: medium;
+    color: white;
+}
+
+.result {
+    color: orangered;
+}
+
+@media all and (max-width: 500px) {
+    h1 {
+        text-align: center;
+    }
+    .right {
+        float: unset;
+    }
+    .left {
+        float: unset;
+    }
+}
